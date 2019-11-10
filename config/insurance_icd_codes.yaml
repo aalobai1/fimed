@@ -1,0 +1,10 @@
+fake_insurance_provider:
+  supported_codes:
+    - Z00.01
+    - 11100
+    - 11600
+    - 77261
+    - 99395
+    - 85027
+    - 83615
+    - 84075

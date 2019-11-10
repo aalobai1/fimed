@@ -3,7 +3,7 @@ class TreatmentsController < ApplicationController
   before_action :set_patient_treatment, only: %i[show update destroy]
 
   def index
-    json_response(@patient.treatments)
+    @treatments = @patient.treatments
   end
 
   def show
